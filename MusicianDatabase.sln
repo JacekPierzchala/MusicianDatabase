@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicianDatabase.GUI", "MusicianDatabase.GUI\MusicianDatabase.GUI.csproj", "{B94D9726-50AD-43DE-99B5-56D377DDCF4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicianDatabase.GUI", "MusicianDatabase.GUI\MusicianDatabase.GUI.csproj", "{B94D9726-50AD-43DE-99B5-56D377DDCF4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicianDatabase.Models", "MusicianDatabase.Models\MusicianDatabase.Models.csproj", "{EBFACFED-5FB4-4FE6-9E38-A000A6C51F94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicianDatabase.Models", "MusicianDatabase.Models\MusicianDatabase.Models.csproj", "{EBFACFED-5FB4-4FE6-9E38-A000A6C51F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicianDatabase.DAL", "MusicianDatabase.DAL\MusicianDatabase.DAL.csproj", "{FCCCC840-C322-4A86-85B8-DB090CB0FF9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EBFACFED-5FB4-4FE6-9E38-A000A6C51F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBFACFED-5FB4-4FE6-9E38-A000A6C51F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBFACFED-5FB4-4FE6-9E38-A000A6C51F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCCC840-C322-4A86-85B8-DB090CB0FF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCCC840-C322-4A86-85B8-DB090CB0FF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCCC840-C322-4A86-85B8-DB090CB0FF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCCC840-C322-4A86-85B8-DB090CB0FF9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
